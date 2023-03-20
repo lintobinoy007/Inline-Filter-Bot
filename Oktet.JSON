@@ -1,0 +1,10 @@
+```yaml
+name: Inline-Filter-Bot
+environment
+  - BOT_TOKEN=6260545100:AAG9V73zvSbJz40fJQ_UxiMgd0Vrl0hUUTo
+
+services:
+  bot:
+    build: .
+    command: python bot.py
+```
